@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #2e5e2e;
+  background-color: #1549da;
   border-radius: 4px;
 }
 
@@ -56,7 +56,7 @@ section {
 h1,
 h2,
 h3 {
-  color: #6e6e6e;
+  color: #a1a0a0;
   margin-bottom: 1rem;
 }
 
@@ -66,13 +66,13 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  border-bottom: 2px solid #2e5e2e;
+  border-bottom: 2px solid #1549da;
   padding-bottom: 0.5rem;
 }
 
 h3 {
   font-size: 1.4rem;
-  color: #2e5e2e;
+  color: #1549da;
 }
 
 /* contenido y articulos */
@@ -167,7 +167,7 @@ tr:nth-child(even) {
   height: 300px;
   object-fit: cover;
   border-radius: 8px;
-  border: 2px solid #1a3e1a;
+  border: 2px solid #004db3;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -175,7 +175,7 @@ tr:nth-child(even) {
 
 .boton {
   display: inline-block;
-  background-color: #1a3e1a;
+  background-color: #0095eb;
   color: white;
   padding: 0.7rem 1.5rem;
   margin-top: 1rem;
@@ -186,12 +186,12 @@ tr:nth-child(even) {
 }
 
 .boton:hover {
-  background-color: #2e5e2e;
+  background-color: #064f8a;
 }
 
 .boton-volver {
   display: inline-block;
-  color: #1a3e1a;
+  color: #001cbb;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   text-decoration: none;
