@@ -113,10 +113,14 @@ article {
 }
 
 .moto img {
-  width: 300px;
-  height: auto;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 8px;
   border: 1px solid #ddd;
+  display: block;
+  margin: 0 auto;
 }
 
 .moto div {
@@ -146,4 +150,75 @@ th {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+/* imagenes */
+
+.galeria-motos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.galeria-motos img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #1a3e1a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* botones */
+
+.boton {
+  display: inline-block;
+  background-color: #1a3e1a;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #2e5e2e;
+}
+
+.boton-volver {
+  display: inline-block;
+  color: #1a3e1a;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.boton-volver:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .moto {
+    flex-direction: column;
+  }
+
+  .moto img {
+    width: 100%;
+  }
+
+  .galeria-motos img {
+    width: 100%;
+  }
+
+  .foto-perfil {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
 }
